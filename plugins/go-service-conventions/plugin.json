@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "go-service-conventions",
+  "version": "1.1.0",
+  "description": "Go code style rules, the required library stack (GORM, NATS, Fiber v3, zerolog) and the service directory layout",
+  "author": {
+    "name": "saturngfish",
+    "url": "https://github.com/saturngfish"
+  },
+  "homepage": "https://github.com/saturngfish/go-claude-skill",
+  "repository": "https://github.com/saturngfish/go-claude-skill",
+  "keywords": ["go", "golang", "code-style", "conventions", "code-review", "project-structure", "gorm", "nats", "fiber", "zerolog"]
+}

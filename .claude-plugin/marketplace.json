@@ -1,6 +1,6 @@
 {
   "name": "go-claude-skill",
-  "description": "Claude Code skill with Go service conventions: code style, required library stack and project layout",
+  "description": "Claude Code and Codex skill with Go service conventions: code style, required library stack and project layout",
   "owner": {
     "name": "saturngfish"
   },

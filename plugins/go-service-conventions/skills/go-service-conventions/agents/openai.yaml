@@ -1,0 +1,7 @@
+interface:
+  display_name: "Go Service Conventions"
+  short_description: "Go code style, library stack and project layout rules"
+  default_prompt: "Review this Go code against our service conventions"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,23 @@
+{
+  "name": "go-claude-skill",
+  "interface": {
+    "displayName": "Go Service Conventions"
+  },
+  "plugins": [
+    {
+      "name": "go-service-conventions",
+      "source": {
+        "source": "local",
+        "path": "./plugins/go-service-conventions"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools",
+      "interface": {
+        "displayName": "Go Service Conventions"
+      }
+    }
+  ]
+}

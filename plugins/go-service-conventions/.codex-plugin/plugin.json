@@ -1,0 +1,16 @@
+{
+  "name": "go-service-conventions",
+  "version": "1.1.0",
+  "description": "Go code style rules, the required library stack (GORM, NATS, Fiber v3, zerolog) and the service directory layout",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Go Service Conventions",
+    "shortDescription": "Go code style, library stack and project layout rules",
+    "longDescription": "Teaches the agent a team's Go service conventions: blank line before return, guard returns, the required libraries (GORM, NATS, Fiber v3, zerolog, viper and others) and where each kind of code lives in the project.",
+    "developerName": "saturngfish",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/saturngfish/go-claude-skill",
+    "defaultPrompt": ["Review this Go code against our service conventions"]
+  }
+}
