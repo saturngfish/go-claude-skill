@@ -1,0 +1,14 @@
+{
+  "name": "go-claude-skill",
+  "description": "Team conventions for Go services, packaged as a Claude Code plugin",
+  "owner": {
+    "name": "saturngfish"
+  },
+  "plugins": [
+    {
+      "name": "go-service-conventions",
+      "source": "./plugins/go-service-conventions",
+      "description": "Go code formatting rules, the required library stack, and the service directory layout"
+    }
+  ]
+}

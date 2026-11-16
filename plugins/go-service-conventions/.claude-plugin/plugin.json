@@ -1,0 +1,8 @@
+{
+  "name": "go-service-conventions",
+  "description": "Go code formatting rules, the required library stack, and the service directory layout",
+  "version": "1.0.0",
+  "author": {
+    "name": "saturngfish"
+  }
+}
