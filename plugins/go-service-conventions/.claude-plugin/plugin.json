@@ -1,8 +1,12 @@
 {
   "name": "go-service-conventions",
-  "description": "Go code formatting rules, the required library stack, and the service directory layout",
-  "version": "1.0.0",
+  "displayName": "Go Service Conventions",
+  "description": "Go code style rules, the required library stack (GORM, NATS, Fiber v3, zerolog) and the service directory layout",
+  "version": "1.0.1",
   "author": {
     "name": "saturngfish"
-  }
+  },
+  "homepage": "https://github.com/saturngfish/go-claude-skill",
+  "repository": "https://github.com/saturngfish/go-claude-skill",
+  "keywords": ["go", "golang", "code-style", "conventions", "code-review", "project-structure", "gorm", "nats", "fiber", "zerolog"]
 }

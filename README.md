@@ -1,6 +1,11 @@
-# go-claude-skill
+# go-claude-skill: Go conventions skill for Claude Code
 
-A Claude Code plugin marketplace with one plugin, `go-service-conventions`, that teaches Claude our team's rules for Go services.
+A Claude Code plugin (skill) that teaches Claude a team's Go service conventions: code style, the required library stack (GORM, NATS, Fiber v3, zerolog, viper and others) and the project directory layout. Install it and Claude writes and reviews Go code by these rules.
+
+```bash
+claude plugin marketplace add saturngfish/go-claude-skill
+claude plugin install go-service-conventions@go-claude-skill
+```
 
 ## Why
 

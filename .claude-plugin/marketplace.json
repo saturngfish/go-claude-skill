@@ -1,14 +1,19 @@
 {
   "name": "go-claude-skill",
-  "description": "Team conventions for Go services, packaged as a Claude Code plugin",
+  "description": "Claude Code skill with Go service conventions: code style, required library stack and project layout",
   "owner": {
     "name": "saturngfish"
   },
   "plugins": [
     {
       "name": "go-service-conventions",
+      "displayName": "Go Service Conventions",
       "source": "./plugins/go-service-conventions",
-      "description": "Go code formatting rules, the required library stack, and the service directory layout"
+      "description": "Go code style rules, the required library stack (GORM, NATS, Fiber v3, zerolog) and the service directory layout",
+      "category": "development",
+      "tags": ["go", "golang", "code-style", "conventions", "code-review", "project-structure", "gorm", "nats", "fiber"],
+      "homepage": "https://github.com/saturngfish/go-claude-skill",
+      "repository": "https://github.com/saturngfish/go-claude-skill"
     }
   ]
 }
